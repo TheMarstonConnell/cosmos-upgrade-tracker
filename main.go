@@ -75,7 +75,7 @@ func main() {
 		return
 	}
 
-	file, err := os.OpenFile("validators.csv", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	file, err := os.OpenFile("validators.csv", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0o644)
 	if err != nil {
 		log.Fatalf("failed creating file: %s", err)
 	}
@@ -94,5 +94,4 @@ func main() {
 
 	datawriter.Flush()
 	file.Close()
-
 }
