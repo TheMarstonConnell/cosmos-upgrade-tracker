@@ -124,8 +124,6 @@ replace (
 	// use cosmos keyring
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
 
-	//github.com/JackalLabs/blanket => ../blanket
-
 	// dragonberry ics23 patch
 	github.com/confio/ics23/go => github.com/cosmos/cosmos-sdk/ics23/go v0.8.0
 
@@ -136,14 +134,9 @@ replace (
 	// use cosmos-flavored protobufs
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 
-	github.com/jackalLabs/canine-chain => github.com/JackalLabs/canine-chain v1.2.0-beta.6.0.20230306225213-9edcf4e32284
-
-	//github.com/jackalLabs/canine-chain => github.com/jackallabs/canine-chain v1.2.0-alpha.12.0.20230124032231-f9a91fb5a692
-
 	github.com/tendermint/tendermint => github.com/informalsystems/tendermint v0.34.23
 	github.com/tendermint/tm-db => github.com/informalsystems/tm-db v0.6.7
 
-	github.com/wealdtech/go-merkletree => github.com/TheMarstonConnell/go-merkletree v0.0.0-20230328183338-b5d590ab1aaf
 	// use grpc compatible with cosmos-flavored protobufs
 	google.golang.org/grpc => google.golang.org/grpc v1.33.2
 
